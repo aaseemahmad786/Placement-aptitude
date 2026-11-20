@@ -1,0 +1,2136 @@
+{
+  "number-system-divisibility": [
+    {
+      "notes": [
+        "Convert fractions, decimals and percentages quickly using benchmark equivalents.",
+        "Place value = digit × position value.",
+        "Fractions become percentages by multiplying by 100."
+      ],
+      "shortNotes": [
+        "Benchmark fractions.",
+        "Use digit sums for 3 and 9."
+      ],
+      "tricks": [
+        "Use digit sums for 3 and 9."
+      ]
+    },
+    {
+      "notes": [
+        "Use digit sums and last-digit tests to eliminate options without long division.",
+        "Place value = digit × position value.",
+        "Fractions become percentages by multiplying by 100."
+      ],
+      "shortNotes": [
+        "Cross-multiplication.",
+        "Check last digits for 4, 5, 8 and 10."
+      ],
+      "tricks": [
+        "Check last digits for 4, 5, 8 and 10.",
+        "Use digit sums for 3 and 9."
+      ]
+    },
+    {
+      "notes": [
+        "Prime factorisation exposes HCF, LCM, perfect squares and factor counts.",
+        "Place value = digit × position value.",
+        "Fractions become percentages by multiplying by 100."
+      ],
+      "shortNotes": [
+        "Benchmark fractions.",
+        "Use exponent modulo the units-digit cycle."
+      ],
+      "tricks": [
+        "Use exponent modulo the units-digit cycle.",
+        "Use digit sums for 3 and 9."
+      ]
+    },
+    {
+      "notes": [
+        "Powers repeat in short cycles; use the exponent modulo the cycle length.",
+        "Place value = digit × position value.",
+        "Fractions become percentages by multiplying by 100."
+      ],
+      "shortNotes": [
+        "Cross-multiplication.",
+        "Compare a/b and c/d using a×d and c×b."
+      ],
+      "tricks": [
+        "Compare a/b and c/d using a×d and c×b.",
+        "Use digit sums for 3 and 9."
+      ]
+    }
+  ],
+  "hcf-lcm-remainders": [
+    {
+      "notes": [
+        "HCF uses the lowest powers of common primes; LCM uses the highest powers.",
+        "HCF uses common lowest prime powers; LCM uses highest powers.",
+        "For two numbers, HCF × LCM = product."
+      ],
+      "shortNotes": [
+        "LCM for repeats; HCF for grouping.",
+        "Use LCM as total work."
+      ],
+      "tricks": [
+        "Use LCM as total work."
+      ]
+    },
+    {
+      "notes": [
+        "Use LCM for repeated events and HCF for greatest equal grouping.",
+        "HCF uses common lowest prime powers; LCM uses highest powers.",
+        "For two numbers, HCF × LCM = product."
+      ],
+      "shortNotes": [
+        "Subtract remainders for common divisors.",
+        "List congruence candidates as an AP."
+      ],
+      "tricks": [
+        "List congruence candidates as an AP.",
+        "Use LCM as total work."
+      ]
+    },
+    {
+      "notes": [
+        "Replace large powers with their repeating residue to avoid full calculation.",
+        "HCF uses common lowest prime powers; LCM uses highest powers.",
+        "For two numbers, HCF × LCM = product."
+      ],
+      "shortNotes": [
+        "LCM for repeats; HCF for grouping.",
+        "Use LCM as total work."
+      ],
+      "tricks": [
+        "Use LCM as total work."
+      ]
+    },
+    {
+      "notes": [
+        "Compare first and second differences, ratios and alternating terms.",
+        "HCF uses common lowest prime powers; LCM uses highest powers.",
+        "For two numbers, HCF × LCM = product."
+      ],
+      "shortNotes": [
+        "Subtract remainders for common divisors.",
+        "List congruence candidates as an AP."
+      ],
+      "tricks": [
+        "List congruence candidates as an AP.",
+        "Use LCM as total work."
+      ]
+    }
+  ],
+  "percentages-decimal-fractions": [
+    {
+      "notes": [
+        "Memorise benchmarks such as 1/8 = 12.5% to save 20–30 seconds per question.",
+        "New = original × (1 ± rate/100).",
+        "Reverse percentage change by dividing by its factor."
+      ],
+      "shortNotes": [
+        "Successive changes multiply factors.",
+        "Use 10%, 5% and 1% chunks."
+      ],
+      "tricks": [
+        "Use 10%, 5% and 1% chunks."
+      ]
+    },
+    {
+      "notes": [
+        "New value = original × (1 ± rate/100).",
+        "New = original × (1 ± rate/100).",
+        "Reverse percentage change by dividing by its factor."
+      ],
+      "shortNotes": [
+        "1/8 = 12.5%; 1/5 = 20%.",
+        "For reverse change divide by 1.10 or 0.90."
+      ],
+      "tricks": [
+        "For reverse change divide by 1.10 or 0.90.",
+        "Use 10%, 5% and 1% chunks."
+      ]
+    },
+    {
+      "notes": [
+        "Combine successive changes by multiplying factors, not by adding percentages.",
+        "New = original × (1 ± rate/100).",
+        "Reverse percentage change by dividing by its factor."
+      ],
+      "shortNotes": [
+        "Successive changes multiply factors.",
+        "Percentage points subtract directly."
+      ],
+      "tricks": [
+        "Percentage points subtract directly.",
+        "Use 10%, 5% and 1% chunks."
+      ]
+    },
+    {
+      "notes": [
+        "Always identify the original base before comparing two percentages.",
+        "New = original × (1 ± rate/100).",
+        "Reverse percentage change by dividing by its factor."
+      ],
+      "shortNotes": [
+        "1/8 = 12.5%; 1/5 = 20%.",
+        "Keep fractions until the final rounding step."
+      ],
+      "tricks": [
+        "Keep fractions until the final rounding step.",
+        "Use 10%, 5% and 1% chunks."
+      ]
+    }
+  ],
+  "profit-loss-discount": [
+    {
+      "notes": [
+        "Profit or loss percentage is always calculated on cost price unless stated otherwise.",
+        "Profit/loss percentage uses cost price unless stated.",
+        "Discount uses marked price."
+      ],
+      "shortNotes": [
+        "SP = CP × profit factor.",
+        "Assume CP = ₹100 for percentage-only problems."
+      ],
+      "tricks": [
+        "Assume CP = ₹100 for percentage-only problems."
+      ]
+    },
+    {
+      "notes": [
+        "Discount is calculated on marked price, then profit is compared with cost price.",
+        "Profit/loss percentage uses cost price unless stated.",
+        "Discount uses marked price."
+      ],
+      "shortNotes": [
+        "Reverse discounts by division.",
+        "25% mark-up then 10% discount gives 12.5% profit."
+      ],
+      "tricks": [
+        "25% mark-up then 10% discount gives 12.5% profit.",
+        "Assume CP = ₹100 for percentage-only problems."
+      ]
+    },
+    {
+      "notes": [
+        "Multiply remaining price factors; two discounts of a% and b% are not a + b.",
+        "Profit/loss percentage uses cost price unless stated.",
+        "Discount uses marked price."
+      ],
+      "shortNotes": [
+        "SP = CP × profit factor.",
+        "Subtract rupee discounts directly."
+      ],
+      "tricks": [
+        "Subtract rupee discounts directly.",
+        "Assume CP = ₹100 for percentage-only problems."
+      ]
+    },
+    {
+      "notes": [
+        "Compare what the customer pays for with what the seller actually gives.",
+        "Profit/loss percentage uses cost price unless stated.",
+        "Discount uses marked price."
+      ],
+      "shortNotes": [
+        "Reverse discounts by division.",
+        "Compare final selling prices using one common CP."
+      ],
+      "tricks": [
+        "Compare final selling prices using one common CP.",
+        "Assume CP = ₹100 for percentage-only problems."
+      ]
+    }
+  ],
+  "ratio-proportion-variation": [
+    {
+      "notes": [
+        "One ratio part equals the total divided by the sum of parts.",
+        "One part = total ÷ sum of ratio parts.",
+        "Partnership shares use capital × time."
+      ],
+      "shortNotes": [
+        "Match the common term before combining ratios.",
+        "Scale a combined ratio to the known value."
+      ],
+      "tricks": [
+        "Scale a combined ratio to the known value."
+      ]
+    },
+    {
+      "notes": [
+        "More workers means fewer days; total work stays constant.",
+        "One part = total ÷ sum of ratio parts.",
+        "Partnership shares use capital × time."
+      ],
+      "shortNotes": [
+        "Remove fixed fees before sharing profit.",
+        "For changed ratios form (a+k)/(b+k)."
+      ],
+      "tricks": [
+        "For changed ratios form (a+k)/(b+k).",
+        "Scale a combined ratio to the known value."
+      ]
+    },
+    {
+      "notes": [
+        "Profit is shared in the ratio of capital × time.",
+        "One part = total ÷ sum of ratio parts.",
+        "Partnership shares use capital × time."
+      ],
+      "shortNotes": [
+        "Match the common term before combining ratios.",
+        "Use worker-days for work."
+      ],
+      "tricks": [
+        "Use worker-days for work.",
+        "Scale a combined ratio to the known value."
+      ]
+    },
+    {
+      "notes": [
+        "Multiply matching antecedents and consequents when combining ratios.",
+        "One part = total ÷ sum of ratio parts.",
+        "Partnership shares use capital × time."
+      ],
+      "shortNotes": [
+        "Remove fixed fees before sharing profit.",
+        "Use capital-month products for investments."
+      ],
+      "tricks": [
+        "Use capital-month products for investments.",
+        "Scale a combined ratio to the known value."
+      ]
+    }
+  ],
+  "averages-mixtures-alligation": [
+    {
+      "notes": [
+        "Average = total sum / count; use deviations from a convenient baseline.",
+        "Average = sum/count; weighted average uses value × weight.",
+        "Replacement leaves original × (1−removed fraction)^n."
+      ],
+      "shortNotes": [
+        "Alligation uses inverse distances from the mean.",
+        "Use a convenient baseline for averages."
+      ],
+      "tricks": [
+        "Use a convenient baseline for averages."
+      ]
+    },
+    {
+      "notes": [
+        "The ratio of quantities is inversely proportional to their distances from the mean.",
+        "Average = sum/count; weighted average uses value × weight.",
+        "Replacement leaves original × (1−removed fraction)^n."
+      ],
+      "shortNotes": [
+        "Update the sum when adding/removing a value.",
+        "Convert mixture percentages to actual substance amounts."
+      ],
+      "tricks": [
+        "Convert mixture percentages to actual substance amounts.",
+        "Use a convenient baseline for averages."
+      ]
+    },
+    {
+      "notes": [
+        "Track the changing quantity of the original substance after each replacement.",
+        "Average = sum/count; weighted average uses value × weight.",
+        "Replacement leaves original × (1−removed fraction)^n."
+      ],
+      "shortNotes": [
+        "Alligation uses inverse distances from the mean.",
+        "All-equal data has zero variance."
+      ],
+      "tricks": [
+        "All-equal data has zero variance.",
+        "Use a convenient baseline for averages."
+      ]
+    },
+    {
+      "notes": [
+        "Median depends on sorted position; mean is affected by extreme values.",
+        "Average = sum/count; weighted average uses value × weight.",
+        "Replacement leaves original × (1−removed fraction)^n."
+      ],
+      "shortNotes": [
+        "Update the sum when adding/removing a value.",
+        "Sort before choosing the median."
+      ],
+      "tricks": [
+        "Sort before choosing the median.",
+        "Use a convenient baseline for averages."
+      ]
+    }
+  ],
+  "simple-compound-interest": [
+    {
+      "notes": [
+        "SI = P×R×T/100 and grows linearly with time.",
+        "SI = PRT/100 with time in years.",
+        "Compound amount = P(1+r/n)^(nt)."
+      ],
+      "shortNotes": [
+        "Half-yearly: halve rate and double periods.",
+        "Use growth factors for short calculations."
+      ],
+      "tricks": [
+        "Use growth factors for short calculations."
+      ]
+    },
+    {
+      "notes": [
+        "Amount = P(1 + r/n)^(nt); interest earns interest.",
+        "SI = PRT/100 with time in years.",
+        "Compound amount = P(1+r/n)^(nt)."
+      ],
+      "shortNotes": [
+        "Two-year CI − SI = P(r/100)².",
+        "Match time units to compounding frequency."
+      ],
+      "tricks": [
+        "Match time units to compounding frequency.",
+        "Use growth factors for short calculations."
+      ]
+    },
+    {
+      "notes": [
+        "For two years, CI − SI = P(r/100)².",
+        "SI = PRT/100 with time in years.",
+        "Compound amount = P(1+r/n)^(nt)."
+      ],
+      "shortNotes": [
+        "Half-yearly: halve rate and double periods.",
+        "Divide amount by principal to find a missing rate."
+      ],
+      "tricks": [
+        "Divide amount by principal to find a missing rate.",
+        "Use growth factors for short calculations."
+      ]
+    },
+    {
+      "notes": [
+        "Use a positive factor for growth and a negative rate factor for depreciation.",
+        "SI = PRT/100 with time in years.",
+        "Compound amount = P(1+r/n)^(nt)."
+      ],
+      "shortNotes": [
+        "Two-year CI − SI = P(r/100)².",
+        "Depreciation uses a negative rate factor."
+      ],
+      "tricks": [
+        "Depreciation uses a negative rate factor.",
+        "Use growth factors for short calculations."
+      ]
+    }
+  ],
+  "time-work-pipes": [
+    {
+      "notes": [
+        "Assume total work equals the LCM of individual times and convert to units/day.",
+        "Work = rate × time.",
+        "Combined time is the reciprocal of summed rates."
+      ],
+      "shortNotes": [
+        "Use LCM work units.",
+        "Draw a timeline for entering/leaving workers."
+      ],
+      "tricks": [
+        "Draw a timeline for entering/leaving workers."
+      ]
+    },
+    {
+      "notes": [
+        "Add efficiencies for simultaneous work; track each cycle for alternating work.",
+        "Work = rate × time.",
+        "Combined time is the reciprocal of summed rates."
+      ],
+      "shortNotes": [
+        "Wages follow actual work contribution.",
+        "Compute one cycle for alternating work."
+      ],
+      "tricks": [
+        "Compute one cycle for alternating work.",
+        "Draw a timeline for entering/leaving workers."
+      ]
+    },
+    {
+      "notes": [
+        "Treat filling rates as positive work and leakage rates as negative work.",
+        "Work = rate × time.",
+        "Combined time is the reciprocal of summed rates."
+      ],
+      "shortNotes": [
+        "Use LCM work units.",
+        "Subtract completed work before finding remaining time."
+      ],
+      "tricks": [
+        "Subtract completed work before finding remaining time.",
+        "Draw a timeline for entering/leaving workers."
+      ]
+    },
+    {
+      "notes": [
+        "Share payment in the ratio of work actually completed.",
+        "Work = rate × time.",
+        "Combined time is the reciprocal of summed rates."
+      ],
+      "shortNotes": [
+        "Wages follow actual work contribution.",
+        "Convert efficiency to a rate multiplier."
+      ],
+      "tricks": [
+        "Convert efficiency to a rate multiplier.",
+        "Draw a timeline for entering/leaving workers."
+      ]
+    }
+  ],
+  "time-speed-distance": [
+    {
+      "notes": [
+        "Multiply km/h by 5/18 to get m/s; distance = speed × time.",
+        "Distance = speed × time.",
+        "Average speed = total distance ÷ total time."
+      ],
+      "shortNotes": [
+        "km/h to m/s: ×5/18.",
+        "Opposite directions add; same directions subtract."
+      ],
+      "tricks": [
+        "Opposite directions add; same directions subtract."
+      ]
+    },
+    {
+      "notes": [
+        "Add speeds for opposite directions and subtract for the same direction.",
+        "Distance = speed × time.",
+        "Average speed = total distance ÷ total time."
+      ],
+      "shortNotes": [
+        "Equal-distance average speed = 2ab/(a+b).",
+        "Train crossing includes all relevant lengths."
+      ],
+      "tricks": [
+        "Train crossing includes all relevant lengths.",
+        "Opposite directions add; same directions subtract."
+      ]
+    },
+    {
+      "notes": [
+        "Crossing a platform requires train length plus platform length.",
+        "Distance = speed × time.",
+        "Average speed = total distance ÷ total time."
+      ],
+      "shortNotes": [
+        "km/h to m/s: ×5/18.",
+        "Calculate moving time separately from stops."
+      ],
+      "tricks": [
+        "Calculate moving time separately from stops.",
+        "Opposite directions add; same directions subtract."
+      ]
+    },
+    {
+      "notes": [
+        "Average speed is total distance / total time, not the average of two speeds.",
+        "Distance = speed × time.",
+        "Average speed = total distance ÷ total time."
+      ],
+      "shortNotes": [
+        "Equal-distance average speed = 2ab/(a+b).",
+        "Downstream adds stream speed; upstream subtracts it."
+      ],
+      "tricks": [
+        "Downstream adds stream speed; upstream subtracts it.",
+        "Opposite directions add; same directions subtract."
+      ]
+    }
+  ],
+  "algebra-equations-ages-progressions": [
+    {
+      "notes": [
+        "Translate words into variables and verify roots in the original context.",
+        "Quadratic root sum = −b/a; product = c/a.",
+        "Age differences stay constant over time."
+      ],
+      "shortNotes": [
+        "AP nth term = a+(n−1)d.",
+        "Clear fractions before expanding equations."
+      ],
+      "tricks": [
+        "Clear fractions before expanding equations."
+      ]
+    },
+    {
+      "notes": [
+        "The difference between two ages remains constant over time.",
+        "Quadratic root sum = −b/a; product = c/a.",
+        "Age differences stay constant over time."
+      ],
+      "shortNotes": [
+        "GP nth term = ar^(n−1).",
+        "Check roots in the original context."
+      ],
+      "tricks": [
+        "Check roots in the original context.",
+        "Clear fractions before expanding equations."
+      ]
+    },
+    {
+      "notes": [
+        "AP nth term = a + (n−1)d; GP nth term = ar^(n−1).",
+        "Quadratic root sum = −b/a; product = c/a.",
+        "Age differences stay constant over time."
+      ],
+      "shortNotes": [
+        "AP nth term = a+(n−1)d.",
+        "Add total years across all people for age sums."
+      ],
+      "tricks": [
+        "Add total years across all people for age sums.",
+        "Clear fractions before expanding equations."
+      ]
+    },
+    {
+      "notes": [
+        "Reverse the inequality sign when multiplying or dividing by a negative.",
+        "Quadratic root sum = −b/a; product = c/a.",
+        "Age differences stay constant over time."
+      ],
+      "shortNotes": [
+        "GP nth term = ar^(n−1).",
+        "Use factorisation before the quadratic formula."
+      ],
+      "tricks": [
+        "Use factorisation before the quadratic formula.",
+        "Clear fractions before expanding equations."
+      ]
+    }
+  ],
+  "probability-permutation-statistics": [
+    {
+      "notes": [
+        "Use nPr when order matters and nCr when only selection matters.",
+        "Order matters for permutations but not combinations.",
+        "Independent events multiply; mutually exclusive events add."
+      ],
+      "shortNotes": [
+        "Without replacement changes the denominator.",
+        "Use nPr and nCr formulas before listing outcomes."
+      ],
+      "tricks": [
+        "Use nPr and nCr formulas before listing outcomes."
+      ]
+    },
+    {
+      "notes": [
+        "Probability = favourable outcomes / equally likely total outcomes.",
+        "Order matters for permutations but not combinations.",
+        "Independent events multiply; mutually exclusive events add."
+      ],
+      "shortNotes": [
+        "Standard deviation = √variance.",
+        "For at least one subtract the none probability from 1."
+      ],
+      "tricks": [
+        "For at least one subtract the none probability from 1.",
+        "Use nPr and nCr formulas before listing outcomes."
+      ]
+    },
+    {
+      "notes": [
+        "For independent events multiply probabilities; for mutually exclusive events add them.",
+        "Order matters for permutations but not combinations.",
+        "Independent events multiply; mutually exclusive events add."
+      ],
+      "shortNotes": [
+        "Without replacement changes the denominator.",
+        "Two dice have 36 ordered outcomes."
+      ],
+      "tricks": [
+        "Two dice have 36 ordered outcomes.",
+        "Use nPr and nCr formulas before listing outcomes."
+      ]
+    },
+    {
+      "notes": [
+        "Standard deviation is the square root of the mean squared deviation.",
+        "Order matters for permutations but not combinations.",
+        "Independent events multiply; mutually exclusive events add."
+      ],
+      "shortNotes": [
+        "Standard deviation = √variance.",
+        "Weight squared deviations by frequency."
+      ],
+      "tricks": [
+        "Weight squared deviations by frequency.",
+        "Use nPr and nCr formulas before listing outcomes."
+      ]
+    }
+  ],
+  "data-interpretation": [
+    {
+      "notes": [
+        "Read units, totals and footnotes before calculating anything.",
+        "Read units and the base before calculating.",
+        "Growth % = (new−old)/old×100."
+      ],
+      "shortNotes": [
+        "Pie sector % = angle/3.6.",
+        "Reuse totals in multi-part sets."
+      ],
+      "tricks": [
+        "Reuse totals in multi-part sets."
+      ]
+    },
+    {
+      "notes": [
+        "Use differences for growth and slopes for rate-of-change comparisons.",
+        "Read units and the base before calculating.",
+        "Growth % = (new−old)/old×100."
+      ],
+      "shortNotes": [
+        "Combined averages need weights.",
+        "Round late when options are close."
+      ],
+      "tricks": [
+        "Round late when options are close.",
+        "Reuse totals in multi-part sets."
+      ]
+    },
+    {
+      "notes": [
+        "Each sector angle divided by 360° gives its share of the total.",
+        "Read units and the base before calculating.",
+        "Growth % = (new−old)/old×100."
+      ],
+      "shortNotes": [
+        "Pie sector % = angle/3.6.",
+        "Convert pie angles to fractions of 360."
+      ],
+      "tricks": [
+        "Convert pie angles to fractions of 360.",
+        "Reuse totals in multi-part sets."
+      ]
+    },
+    {
+      "notes": [
+        "Round only at the final step and keep a common base for comparisons.",
+        "Read units and the base before calculating.",
+        "Growth % = (new−old)/old×100."
+      ],
+      "shortNotes": [
+        "Combined averages need weights.",
+        "Check whether a chart shows shares or changes."
+      ],
+      "tricks": [
+        "Check whether a chart shows shares or changes.",
+        "Reuse totals in multi-part sets."
+      ]
+    }
+  ],
+  "geometry-mensuration-clocks-calendar": [
+    {
+      "notes": [
+        "Use angle sums, similarity and Pythagoras before applying lengthy formulas.",
+        "Triangle angles sum to 180°.",
+        "Circle area = πr²; cylinder volume = πr²h."
+      ],
+      "shortNotes": [
+        "Clock angle = ",
+        "Use length scale k for area k² and volume k³."
+      ],
+      "tricks": [
+        "Use length scale k for area k² and volume k³."
+      ]
+    },
+    {
+      "notes": [
+        "Keep units consistent; composite figures split into known shapes.",
+        "Triangle angles sum to 180°.",
+        "Circle area = πr²; cylinder volume = πr²h."
+      ],
+      "shortNotes": [
+        "30h+0.5m−6m",
+        "Mirror time = 11:60 − time."
+      ],
+      "tricks": [
+        "Mirror time = 11:60 − time.",
+        "Use length scale k for area k² and volume k³."
+      ]
+    },
+    {
+      "notes": [
+        "Area uses square units and volume uses cubic units.",
+        "Triangle angles sum to 180°.",
+        "Circle area = πr²; cylinder volume = πr²h."
+      ],
+      "shortNotes": [
+        "Clock angle = ",
+        "Use Pythagoras for right triangles."
+      ],
+      "tricks": [
+        "Use Pythagoras for right triangles.",
+        "Use length scale k for area k² and volume k³."
+      ]
+    },
+    {
+      "notes": [
+        "The minute hand moves 6° per minute and the hour hand 0.5° per minute.",
+        "Triangle angles sum to 180°.",
+        "Circle area = πr²; cylinder volume = πr²h."
+      ],
+      "shortNotes": [
+        "30h+0.5m−6m",
+        "Use LCM structure for together-at-start track questions."
+      ],
+      "tricks": [
+        "Use LCM structure for together-at-start track questions.",
+        "Use length scale k for area k² and volume k³."
+      ]
+    }
+  ],
+  "reading-comprehension-passage-recall": [
+    {
+      "notes": [
+        "The correct main idea covers the whole passage, not just one example.",
+        "Main idea covers the whole passage; inference must be supported by evidence.",
+        "Recall requires exact names, dates and quantities."
+      ],
+      "shortNotes": [
+        "Read questions before dense passages.",
+        "Read the question-specific lines."
+      ],
+      "tricks": [
+        "Read the question-specific lines."
+      ]
+    },
+    {
+      "notes": [
+        "An inference is supported by the text but is not copied word-for-word.",
+        "Main idea covers the whole passage; inference must be supported by evidence.",
+        "Recall requires exact names, dates and quantities."
+      ],
+      "shortNotes": [
+        "Reject unsupported extreme claims.",
+        "Use a tiny fact table for recall."
+      ],
+      "tricks": [
+        "Use a tiny fact table for recall.",
+        "Read the question-specific lines."
+      ]
+    },
+    {
+      "notes": [
+        "Use surrounding clues and the author's word choice to identify attitude.",
+        "Main idea covers the whole passage; inference must be supported by evidence.",
+        "Recall requires exact names, dates and quantities."
+      ],
+      "shortNotes": [
+        "Read questions before dense passages.",
+        "Check author evaluative words for tone."
+      ],
+      "tricks": [
+        "Check author evaluative words for tone.",
+        "Read the question-specific lines."
+      ]
+    },
+    {
+      "notes": [
+        "Read the questions first, note keywords, then reconstruct the passage structure.",
+        "Main idea covers the whole passage; inference must be supported by evidence.",
+        "Recall requires exact names, dates and quantities."
+      ],
+      "shortNotes": [
+        "Reject unsupported extreme claims.",
+        "Substitute contextual meanings back into the sentence."
+      ],
+      "tricks": [
+        "Substitute contextual meanings back into the sentence.",
+        "Read the question-specific lines."
+      ]
+    }
+  ],
+  "sentence-completion-cloze": [
+    {
+      "notes": [
+        "Look for contrast, cause and explanation words around the blank.",
+        "Read a cloze paragraph before selecting blanks.",
+        "Connectors and collocations constrain the missing word."
+      ],
+      "shortNotes": [
+        "Check meaning, grammar and collocation together.",
+        "Use contrast clues around not and but."
+      ],
+      "tricks": [
+        "Use contrast clues around not and but."
+      ]
+    },
+    {
+      "notes": [
+        "Choose the word that naturally pairs with nearby nouns and prepositions.",
+        "Read a cloze paragraph before selecting blanks.",
+        "Connectors and collocations constrain the missing word."
+      ],
+      "shortNotes": [
+        "Build two-sentence blocks for para jumbles.",
+        "Find independent openers."
+      ],
+      "tricks": [
+        "Find independent openers.",
+        "Use contrast clues around not and but."
+      ]
+    },
+    {
+      "notes": [
+        "However signals contrast; therefore signals result; moreover signals addition.",
+        "Read a cloze paragraph before selecting blanks.",
+        "Connectors and collocations constrain the missing word."
+      ],
+      "shortNotes": [
+        "Check meaning, grammar and collocation together.",
+        "Link pronouns to earlier antecedents."
+      ],
+      "tricks": [
+        "Link pronouns to earlier antecedents.",
+        "Use contrast clues around not and but."
+      ]
+    },
+    {
+      "notes": [
+        "Read the whole paragraph once before selecting any blank.",
+        "Read a cloze paragraph before selecting blanks.",
+        "Connectors and collocations constrain the missing word."
+      ],
+      "shortNotes": [
+        "Build two-sentence blocks for para jumbles.",
+        "Test the strongest sentence pair against options."
+      ],
+      "tricks": [
+        "Test the strongest sentence pair against options.",
+        "Use contrast clues around not and but."
+      ]
+    }
+  ],
+  "grammar-tenses-error-detection": [
+    {
+      "notes": [
+        "The verb agrees with the subject, not with a noun inside a nearby phrase.",
+        "The verb agrees with the actual subject.",
+        "Tense must follow the timeline and modifiers must sit near the described noun."
+      ],
+      "shortNotes": [
+        "Name the error type before choosing a correction.",
+        "Check subject–verb agreement first."
+      ],
+      "tricks": [
+        "Check subject–verb agreement first."
+      ]
+    },
+    {
+      "notes": [
+        "Keep timeline markers consistent and avoid unnecessary tense shifts.",
+        "The verb agrees with the actual subject.",
+        "Tense must follow the timeline and modifiers must sit near the described noun."
+      ],
+      "shortNotes": [
+        "Use a one-page grammar checklist.",
+        "Keep timeline markers consistent."
+      ],
+      "tricks": [
+        "Keep timeline markers consistent.",
+        "Check subject–verb agreement first."
+      ]
+    },
+    {
+      "notes": [
+        "A pronoun needs a clear antecedent and a modifier must sit next to what it describes.",
+        "The verb agrees with the actual subject.",
+        "Tense must follow the timeline and modifiers must sit near the described noun."
+      ],
+      "shortNotes": [
+        "Name the error type before choosing a correction.",
+        "Use singular verbs with each and neither."
+      ],
+      "tricks": [
+        "Use singular verbs with each and neither.",
+        "Check subject–verb agreement first."
+      ]
+    },
+    {
+      "notes": [
+        "Check agreement, tense, parallelism and prepositions one at a time.",
+        "The verb agrees with the actual subject.",
+        "Tense must follow the timeline and modifiers must sit near the described noun."
+      ],
+      "shortNotes": [
+        "Use a one-page grammar checklist.",
+        "Check pronoun references clearly."
+      ],
+      "tricks": [
+        "Check pronoun references clearly.",
+        "Check subject–verb agreement first."
+      ]
+    }
+  ],
+  "sentence-correction-improvement": [
+    {
+      "notes": [
+        "The subject immediately after an opening modifier must perform that action.",
+        "Modifiers must describe the subject that follows them.",
+        "Parallel items use matching grammatical forms."
+      ],
+      "shortNotes": [
+        "Preserve meaning while removing redundancy.",
+        "Make the opening modifier’s subject explicit."
+      ],
+      "tricks": [
+        "Make the opening modifier’s subject explicit."
+      ]
+    },
+    {
+      "notes": [
+        "Items in a list must use the same grammatical form.",
+        "Modifiers must describe the subject that follows them.",
+        "Parallel items use matching grammatical forms."
+      ],
+      "shortNotes": [
+        "Keep the original tense when changing voice.",
+        "Use gerunds for parallel lists."
+      ],
+      "tricks": [
+        "Use gerunds for parallel lists.",
+        "Make the opening modifier’s subject explicit."
+      ]
+    },
+    {
+      "notes": [
+        "Remove repeated meaning and unnecessary wordy constructions.",
+        "Modifiers must describe the subject that follows them.",
+        "Parallel items use matching grammatical forms."
+      ],
+      "shortNotes": [
+        "Preserve meaning while removing redundancy.",
+        "Remove repeated meaning."
+      ],
+      "tricks": [
+        "Remove repeated meaning.",
+        "Make the opening modifier’s subject explicit."
+      ]
+    },
+    {
+      "notes": [
+        "Changing voice moves the object into the subject position without changing tense.",
+        "Modifiers must describe the subject that follows them.",
+        "Parallel items use matching grammatical forms."
+      ],
+      "shortNotes": [
+        "Keep the original tense when changing voice.",
+        "Move the object to subject position in passive voice."
+      ],
+      "tricks": [
+        "Move the object to subject position in passive voice.",
+        "Make the opening modifier’s subject explicit."
+      ]
+    }
+  ],
+  "para-jumbles-sentence-arrangement": [
+    {
+      "notes": [
+        "An opener introduces a subject independently and rarely begins with a pronoun.",
+        "Openers introduce a topic independently.",
+        "Pronouns and connectors depend on earlier sentences."
+      ],
+      "shortNotes": [
+        "Find the strongest pair before arranging all sentences.",
+        "Reject pronouns in the opening sentence."
+      ],
+      "tricks": [
+        "Reject pronouns in the opening sentence."
+      ]
+    },
+    {
+      "notes": [
+        "'He', 'this' and 'the issue' must point to something introduced earlier.",
+        "Openers introduce a topic independently.",
+        "Pronouns and connectors depend on earlier sentences."
+      ],
+      "shortNotes": [
+        "Use chronology for event sequences.",
+        "Lock article and pronoun references."
+      ],
+      "tricks": [
+        "Lock article and pronoun references.",
+        "Reject pronouns in the opening sentence."
+      ]
+    },
+    {
+      "notes": [
+        "Use then, therefore, however and finally to lock adjacent sentence pairs.",
+        "Openers introduce a topic independently.",
+        "Pronouns and connectors depend on earlier sentences."
+      ],
+      "shortNotes": [
+        "Find the strongest pair before arranging all sentences.",
+        "Use then and therefore for sequence."
+      ],
+      "tricks": [
+        "Use then and therefore for sequence.",
+        "Reject pronouns in the opening sentence."
+      ]
+    },
+    {
+      "notes": [
+        "Test the strongest fixed pair first and eliminate options that break it.",
+        "Openers introduce a topic independently.",
+        "Pronouns and connectors depend on earlier sentences."
+      ],
+      "shortNotes": [
+        "Use chronology for event sequences.",
+        "Test option pairs rather than every full ordering."
+      ],
+      "tricks": [
+        "Test option pairs rather than every full ordering.",
+        "Reject pronouns in the opening sentence."
+      ]
+    }
+  ],
+  "vocabulary-in-context": [
+    {
+      "notes": [
+        "Match both meaning and grammatical form before choosing an option.",
+        "Synonyms match meaning and part of speech.",
+        "Connotation and context determine the best word choice."
+      ],
+      "shortNotes": [
+        "Learn confusable words with examples.",
+        "Check the sentence’s positive or negative clue."
+      ],
+      "tricks": [
+        "Check the sentence’s positive or negative clue."
+      ]
+    },
+    {
+      "notes": [
+        "Use nearby contrast or cause clues rather than the most familiar definition.",
+        "Synonyms match meaning and part of speech.",
+        "Connotation and context determine the best word choice."
+      ],
+      "shortNotes": [
+        "State word relationships precisely.",
+        "Match grammatical form in analogies."
+      ],
+      "tricks": [
+        "Match grammatical form in analogies.",
+        "Check the sentence’s positive or negative clue."
+      ]
+    },
+    {
+      "notes": [
+        "A word's emotional charge must fit the author's tone.",
+        "Synonyms match meaning and part of speech.",
+        "Connotation and context determine the best word choice."
+      ],
+      "shortNotes": [
+        "Learn confusable words with examples.",
+        "Use affect/effect example pairs."
+      ],
+      "tricks": [
+        "Use affect/effect example pairs.",
+        "Check the sentence’s positive or negative clue."
+      ]
+    },
+    {
+      "notes": [
+        "Learn pairs such as affect/effect, principal/principle and imply/infer.",
+        "Synonyms match meaning and part of speech.",
+        "Connotation and context determine the best word choice."
+      ],
+      "shortNotes": [
+        "State word relationships precisely.",
+        "Reject a dictionary meaning that contradicts context."
+      ],
+      "tricks": [
+        "Reject a dictionary meaning that contradicts context.",
+        "Check the sentence’s positive or negative clue."
+      ]
+    }
+  ],
+  "idioms-spelling-analogies": [
+    {
+      "notes": [
+        "Learn the figurative meaning, not a literal translation.",
+        "Idioms use figurative meanings.",
+        "One-word substitutions require precise definitions."
+      ],
+      "shortNotes": [
+        "Inspect difficult doubled letters in spelling options.",
+        "Learn the whole idiom as one chunk."
+      ],
+      "tricks": [
+        "Learn the whole idiom as one chunk."
+      ]
+    },
+    {
+      "notes": [
+        "Group words by roots and suffixes to remember tricky spellings.",
+        "Idioms use figurative meanings.",
+        "One-word substitutions require precise definitions."
+      ],
+      "shortNotes": [
+        "Use definitions rather than literal translations.",
+        "Group spelling errors by suffix."
+      ],
+      "tricks": [
+        "Group spelling errors by suffix.",
+        "Learn the whole idiom as one chunk."
+      ]
+    },
+    {
+      "notes": [
+        "State the relationship in a short sentence before checking options.",
+        "Idioms use figurative meanings.",
+        "One-word substitutions require precise definitions."
+      ],
+      "shortNotes": [
+        "Inspect difficult doubled letters in spelling options.",
+        "State analogy relationships in a sentence."
+      ],
+      "tricks": [
+        "State analogy relationships in a sentence.",
+        "Learn the whole idiom as one chunk."
+      ]
+    },
+    {
+      "notes": [
+        "Match both denotation and part of speech.",
+        "Idioms use figurative meanings.",
+        "One-word substitutions require precise definitions."
+      ],
+      "shortNotes": [
+        "Use definitions rather than literal translations.",
+        "Match the requested part of speech."
+      ],
+      "tricks": [
+        "Match the requested part of speech.",
+        "Learn the whole idiom as one chunk."
+      ]
+    }
+  ],
+  "prepositions-articles-voice-speech": [
+    {
+      "notes": [
+        "Learn verb–preposition pairs as single chunks, such as 'proficient in'.",
+        "Prepositions form fixed chunks such as proficient in.",
+        "Reported speech shifts pronouns, tense, time and place."
+      ],
+      "shortNotes": [
+        "Learn verb–preposition pairs together.",
+        "Keep direct/reported versions side by side."
+      ],
+      "tricks": [
+        "Keep direct/reported versions side by side."
+      ]
+    },
+    {
+      "notes": [
+        "Use 'the' for specific references and 'a/an' for a first singular mention.",
+        "Prepositions form fixed chunks such as proficient in.",
+        "Reported speech shifts pronouns, tense, time and place."
+      ],
+      "shortNotes": [
+        "Use a/an by sound and the for specific references.",
+        "Use be + past participle for passive voice."
+      ],
+      "tricks": [
+        "Use be + past participle for passive voice.",
+        "Keep direct/reported versions side by side."
+      ]
+    },
+    {
+      "notes": [
+        "The object becomes the subject and the tense of 'be' carries the original tense.",
+        "Prepositions form fixed chunks such as proficient in.",
+        "Reported speech shifts pronouns, tense, time and place."
+      ],
+      "shortNotes": [
+        "Learn verb–preposition pairs together.",
+        "Replace time words with reported equivalents."
+      ],
+      "tricks": [
+        "Replace time words with reported equivalents.",
+        "Keep direct/reported versions side by side."
+      ]
+    },
+    {
+      "notes": [
+        "Shift pronouns, time expressions and tense when converting to reported speech.",
+        "Prepositions form fixed chunks such as proficient in.",
+        "Reported speech shifts pronouns, tense, time and place."
+      ],
+      "shortNotes": [
+        "Use a/an by sound and the for specific references.",
+        "Keep statement word order in reported questions."
+      ],
+      "tricks": [
+        "Keep statement word order in reported questions.",
+        "Keep direct/reported versions side by side."
+      ]
+    }
+  ],
+  "email-writing-communication": [
+    {
+      "notes": [
+        "A useful subject states the topic, action and relevant date or reference.",
+        "Professional emails state purpose, context, request and deadline.",
+        "Tone should be specific, polite and solution-oriented."
+      ],
+      "shortNotes": [
+        "Use subject → salutation → body → closing.",
+        "Name the deliverable and deadline."
+      ],
+      "tricks": [
+        "Name the deliverable and deadline."
+      ]
+    },
+    {
+      "notes": [
+        "Use polite, direct language and avoid slang, emojis and vague demands.",
+        "Professional emails state purpose, context, request and deadline.",
+        "Tone should be specific, polite and solution-oriented."
+      ],
+      "shortNotes": [
+        "Remove slang and repetitive background.",
+        "Use a polite request opening."
+      ],
+      "tricks": [
+        "Use a polite request opening.",
+        "Name the deliverable and deadline."
+      ]
+    },
+    {
+      "notes": [
+        "Give context, state the exact request, then specify the deadline or next step.",
+        "Professional emails state purpose, context, request and deadline.",
+        "Tone should be specific, polite and solution-oriented."
+      ],
+      "shortNotes": [
+        "Use subject → salutation → body → closing.",
+        "Keep the closing relevant."
+      ],
+      "tricks": [
+        "Keep the closing relevant.",
+        "Name the deliverable and deadline."
+      ]
+    },
+    {
+      "notes": [
+        "Remove filler, check grammar and end with a clear thank-you or call to action.",
+        "Professional emails state purpose, context, request and deadline.",
+        "Tone should be specific, polite and solution-oriented."
+      ],
+      "shortNotes": [
+        "Remove slang and repetitive background.",
+        "Use a reusable four-line email skeleton."
+      ],
+      "tricks": [
+        "Use a reusable four-line email skeleton.",
+        "Name the deliverable and deadline."
+      ]
+    }
+  ],
+  "number-letter-series": [
+    {
+      "notes": [
+        "Check first differences, then second differences and multiplication ratios.",
+        "Check differences, ratios and alternate subsequences.",
+        "A letter series uses alphabet positions A = 1 to Z = 26."
+      ],
+      "shortNotes": [
+        "Write gaps above the terms.",
+        "Test a rule against every term."
+      ],
+      "tricks": [
+        "Test a rule against every term."
+      ]
+    },
+    {
+      "notes": [
+        "Separate odd and even positions when one simple rule does not fit.",
+        "Check differences, ratios and alternate subsequences.",
+        "A letter series uses alphabet positions A = 1 to Z = 26."
+      ],
+      "shortNotes": [
+        "Opposite letters sum to 27.",
+        "Split odd/even positions when needed."
+      ],
+      "tricks": [
+        "Split odd/even positions when needed.",
+        "Test a rule against every term."
+      ]
+    },
+    {
+      "notes": [
+        "A = 1 ... Z = 26; opposite letters sum to 27.",
+        "Check differences, ratios and alternate subsequences.",
+        "A letter series uses alphabet positions A = 1 to Z = 26."
+      ],
+      "shortNotes": [
+        "Write gaps above the terms.",
+        "Use first and second differences."
+      ],
+      "tricks": [
+        "Use first and second differences.",
+        "Test a rule against every term."
+      ]
+    },
+    {
+      "notes": [
+        "Apply the detected operation to both sides of the analogy consistently.",
+        "Check differences, ratios and alternate subsequences.",
+        "A letter series uses alphabet positions A = 1 to Z = 26."
+      ],
+      "shortNotes": [
+        "Opposite letters sum to 27.",
+        "Check reverse-alphabet movement separately."
+      ],
+      "tricks": [
+        "Check reverse-alphabet movement separately.",
+        "Test a rule against every term."
+      ]
+    }
+  ],
+  "coding-decoding-word-patterns": [
+    {
+      "notes": [
+        "Compare each letter position and look for a constant or alternating shift.",
+        "Establish letter shifts and verify with a second example.",
+        "Codes may reverse, rearrange or substitute letters."
+      ],
+      "shortNotes": [
+        "Write alphabet positions for fast shifts.",
+        "Use +1 and −1 shift checks."
+      ],
+      "tricks": [
+        "Use +1 and −1 shift checks."
+      ]
+    },
+    {
+      "notes": [
+        "Map each symbol exactly and check the mapping against a second word.",
+        "Establish letter shifts and verify with a second example.",
+        "Codes may reverse, rearrange or substitute letters."
+      ],
+      "shortNotes": [
+        "Test simple transformations first.",
+        "Map each symbol exactly."
+      ],
+      "tricks": [
+        "Map each symbol exactly.",
+        "Use +1 and −1 shift checks."
+      ]
+    },
+    {
+      "notes": [
+        "Try reversing the string or splitting it into halves before applying shifts.",
+        "Establish letter shifts and verify with a second example.",
+        "Codes may reverse, rearrange or substitute letters."
+      ],
+      "shortNotes": [
+        "Write alphabet positions for fast shifts.",
+        "Try reversal and half-string swaps."
+      ],
+      "tricks": [
+        "Try reversal and half-string swaps.",
+        "Use +1 and −1 shift checks."
+      ]
+    },
+    {
+      "notes": [
+        "Count letters and use alphabet-position clues to form valid words.",
+        "Establish letter shifts and verify with a second example.",
+        "Codes may reverse, rearrange or substitute letters."
+      ],
+      "shortNotes": [
+        "Test simple transformations first.",
+        "Identify vowels when forming anagrams."
+      ],
+      "tricks": [
+        "Identify vowels when forming anagrams.",
+        "Use +1 and −1 shift checks."
+      ]
+    }
+  ],
+  "blood-relations": [
+    {
+      "notes": [
+        "Use separate rows for each generation and mark gender clearly.",
+        "Draw generations in separate rows and mark gender.",
+        "Coded relations must be translated one at a time."
+      ],
+      "shortNotes": [
+        "Use horizontal links for siblings.",
+        "Keep parent-child links vertical."
+      ],
+      "tricks": [
+        "Keep parent-child links vertical."
+      ]
+    },
+    {
+      "notes": [
+        "Translate symbols such as A + B into one relation at a time.",
+        "Draw generations in separate rows and mark gender.",
+        "Coded relations must be translated one at a time."
+      ],
+      "shortNotes": [
+        "Rewrite relations from the speaker’s viewpoint.",
+        "Track gender before interpreting daughter/son."
+      ],
+      "tricks": [
+        "Track gender before interpreting daughter/son.",
+        "Keep parent-child links vertical."
+      ]
+    },
+    {
+      "notes": [
+        "Rewrite 'my', 'his' and 'her' from the speaker's perspective.",
+        "Draw generations in separate rows and mark gender.",
+        "Coded relations must be translated one at a time."
+      ],
+      "shortNotes": [
+        "Use horizontal links for siblings.",
+        "Decode each coded symbol separately."
+      ],
+      "tricks": [
+        "Decode each coded symbol separately.",
+        "Keep parent-child links vertical."
+      ]
+    },
+    {
+      "notes": [
+        "A person in a different generation cannot usually be a sibling or spouse.",
+        "Draw generations in separate rows and mark gender.",
+        "Coded relations must be translated one at a time."
+      ],
+      "shortNotes": [
+        "Rewrite relations from the speaker’s viewpoint.",
+        "Identify the female speaker in only-daughter puzzles."
+      ],
+      "tricks": [
+        "Identify the female speaker in only-daughter puzzles.",
+        "Keep parent-child links vertical."
+      ]
+    }
+  ],
+  "direction-sense": [
+    {
+      "notes": [
+        "Track the current facing direction after every left or right turn.",
+        "Track facing direction after every turn.",
+        "Shortest distance uses net perpendicular components."
+      ],
+      "shortNotes": [
+        "Draw coordinates from the starting point.",
+        "Update the current facing direction each time."
+      ],
+      "tricks": [
+        "Update the current facing direction each time."
+      ]
+    },
+    {
+      "notes": [
+        "Net perpendicular movements form right triangles for shortest distance.",
+        "Track facing direction after every turn.",
+        "Shortest distance uses net perpendicular components."
+      ],
+      "shortNotes": [
+        "Morning shadows point west.",
+        "Use Pythagoras for shortest return."
+      ],
+      "tricks": [
+        "Use Pythagoras for shortest return.",
+        "Update the current facing direction each time."
+      ]
+    },
+    {
+      "notes": [
+        "A morning sun in the east casts shadows toward the west.",
+        "Track facing direction after every turn.",
+        "Shortest distance uses net perpendicular components."
+      ],
+      "shortNotes": [
+        "Draw coordinates from the starting point.",
+        "Separate total distance from displacement."
+      ],
+      "tricks": [
+        "Separate total distance from displacement.",
+        "Update the current facing direction each time."
+      ]
+    },
+    {
+      "notes": [
+        "Decode the renamed compass before drawing the route.",
+        "Track facing direction after every turn.",
+        "Shortest distance uses net perpendicular components."
+      ],
+      "shortNotes": [
+        "Morning shadows point west.",
+        "Keep opposite-side distances additive."
+      ],
+      "tricks": [
+        "Keep opposite-side distances additive.",
+        "Update the current facing direction each time."
+      ]
+    }
+  ],
+  "seating-arrangements": [
+    {
+      "notes": [
+        "Draw numbered seats and place absolute-position clues first.",
+        "Enter fixed positions before relative clues.",
+        "Circular left/right depends on facing direction."
+      ],
+      "shortNotes": [
+        "Total = left rank + right rank − 1.",
+        "Draw numbered seats."
+      ],
+      "tricks": [
+        "Draw numbered seats."
+      ]
+    },
+    {
+      "notes": [
+        "Fix one person, then place immediate-left/right clues relative to facing direction.",
+        "Enter fixed positions before relative clues.",
+        "Circular left/right depends on facing direction."
+      ],
+      "shortNotes": [
+        "Fix one person in circular arrangements.",
+        "Track absolute positions before swaps."
+      ],
+      "tricks": [
+        "Track absolute positions before swaps.",
+        "Draw numbered seats."
+      ]
+    },
+    {
+      "notes": [
+        "Left and right reverse when a person faces away from the centre.",
+        "Enter fixed positions before relative clues.",
+        "Circular left/right depends on facing direction."
+      ],
+      "shortNotes": [
+        "Total = left rank + right rank − 1.",
+        "Reverse left/right when facing outside."
+      ],
+      "tricks": [
+        "Reverse left/right when facing outside.",
+        "Draw numbered seats."
+      ]
+    },
+    {
+      "notes": [
+        "Convert 'immediately left', 'not adjacent' and 'between' into compact symbols.",
+        "Enter fixed positions before relative clues.",
+        "Circular left/right depends on facing direction."
+      ],
+      "shortNotes": [
+        "Fix one person in circular arrangements.",
+        "Convert immediately-left clues into fixed offsets."
+      ],
+      "tricks": [
+        "Convert immediately-left clues into fixed offsets.",
+        "Draw numbered seats."
+      ]
+    }
+  ],
+  "syllogisms-venn-diagrams": [
+    {
+      "notes": [
+        "'Some' means at least one, and 'all A are B' does not imply 'all B are A'.",
+        "Some means at least one; all is a one-way subset relation.",
+        "A definite conclusion must hold in every allowed Venn diagram."
+      ],
+      "shortNotes": [
+        "Draw minimum and maximum overlap cases.",
+        "Use two extreme diagrams for possibility questions."
+      ],
+      "tricks": [
+        "Use two extreme diagrams for possibility questions."
+      ]
+    },
+    {
+      "notes": [
+        "Draw the minimum and maximum overlap diagrams before deciding.",
+        "Some means at least one; all is a one-way subset relation.",
+        "A definite conclusion must hold in every allowed Venn diagram."
+      ],
+      "shortNotes": [
+        "Do not reverse all/some statements.",
+        "Check whether both either–or conclusions can be false."
+      ],
+      "tricks": [
+        "Check whether both either–or conclusions can be false.",
+        "Use two extreme diagrams for possibility questions."
+      ]
+    },
+    {
+      "notes": [
+        "A possibility is valid unless every allowed diagram contradicts it.",
+        "Some means at least one; all is a one-way subset relation.",
+        "A definite conclusion must hold in every allowed Venn diagram."
+      ],
+      "shortNotes": [
+        "Draw minimum and maximum overlap cases.",
+        "Translate statements into subset symbols."
+      ],
+      "tricks": [
+        "Translate statements into subset symbols.",
+        "Use two extreme diagrams for possibility questions."
+      ]
+    },
+    {
+      "notes": [
+        "Check complementary pairs and whether both cannot be true together.",
+        "Some means at least one; all is a one-way subset relation.",
+        "A definite conclusion must hold in every allowed Venn diagram."
+      ],
+      "shortNotes": [
+        "Do not reverse all/some statements.",
+        "Test counterexamples before accepting a conclusion."
+      ],
+      "tricks": [
+        "Test counterexamples before accepting a conclusion.",
+        "Use two extreme diagrams for possibility questions."
+      ]
+    }
+  ],
+  "statements-conclusions-arguments": [
+    {
+      "notes": [
+        "Accept only what must be true from the statement, not what is merely likely.",
+        "A conclusion must follow from the statement alone.",
+        "An assumption connects a problem to an action."
+      ],
+      "shortNotes": [
+        "Separate evidence from proposed claims.",
+        "Reject universal claims without evidence."
+      ],
+      "tricks": [
+        "Reject universal claims without evidence."
+      ]
+    },
+    {
+      "notes": [
+        "An assumption connects the stated reason to the proposed action.",
+        "A conclusion must follow from the statement alone.",
+        "An assumption connects a problem to an action."
+      ],
+      "shortNotes": [
+        "Strong arguments are relevant and supported.",
+        "Find the bridge between reason and action."
+      ],
+      "tricks": [
+        "Find the bridge between reason and action.",
+        "Reject universal claims without evidence."
+      ]
+    },
+    {
+      "notes": [
+        "A strong argument is relevant, factual and directly addresses the issue.",
+        "A conclusion must follow from the statement alone.",
+        "An assumption connects a problem to an action."
+      ],
+      "shortNotes": [
+        "Separate evidence from proposed claims.",
+        "Check necessity versus sufficiency."
+      ],
+      "tricks": [
+        "Check necessity versus sufficiency.",
+        "Reject universal claims without evidence."
+      ]
+    },
+    {
+      "notes": [
+        "Choose practical steps that follow from the problem without extreme assumptions.",
+        "A conclusion must follow from the statement alone.",
+        "An assumption connects a problem to an action."
+      ],
+      "shortNotes": [
+        "Strong arguments are relevant and supported.",
+        "Use counterexamples for weak arguments."
+      ],
+      "tricks": [
+        "Use counterexamples for weak arguments.",
+        "Reject universal claims without evidence."
+      ]
+    }
+  ],
+  "puzzles-data-arrangements": [
+    {
+      "notes": [
+        "Place fixed facts first and represent before/after constraints with arrows.",
+        "Build a grid and enter fixed positive/negative clues.",
+        "Scheduling uses before/after ordering constraints."
+      ],
+      "shortNotes": [
+        "Combine the most restrictive clues first.",
+        "Draw arrows for before/after."
+      ],
+      "tricks": [
+        "Draw arrows for before/after."
+      ]
+    },
+    {
+      "notes": [
+        "Use a two-way grid and cross out impossible combinations.",
+        "Build a grid and enter fixed positive/negative clues.",
+        "Scheduling uses before/after ordering constraints."
+      ],
+      "shortNotes": [
+        "Reuse valid cases across subquestions.",
+        "Cross out impossible matches immediately."
+      ],
+      "tricks": [
+        "Cross out impossible matches immediately.",
+        "Draw arrows for before/after."
+      ]
+    },
+    {
+      "notes": [
+        "Number positions and translate 'above', 'below' and 'adjacent' carefully.",
+        "Build a grid and enter fixed positive/negative clues.",
+        "Scheduling uses before/after ordering constraints."
+      ],
+      "shortNotes": [
+        "Combine the most restrictive clues first.",
+        "Number floor/box positions."
+      ],
+      "tricks": [
+        "Number floor/box positions.",
+        "Draw arrows for before/after."
+      ]
+    },
+    {
+      "notes": [
+        "Combine the two most restrictive clues before branching into cases.",
+        "Build a grid and enter fixed positive/negative clues.",
+        "Scheduling uses before/after ordering constraints."
+      ],
+      "shortNotes": [
+        "Reuse valid cases across subquestions.",
+        "Keep a separate grid for each case."
+      ],
+      "tricks": [
+        "Keep a separate grid for each case.",
+        "Draw arrows for before/after."
+      ]
+    }
+  ],
+  "data-sufficiency-decision-making": [
+    {
+      "notes": [
+        "Decide whether a unique answer is possible; do not solve unless needed.",
+        "Sufficiency asks whether a unique answer is possible.",
+        "Evaluate statements independently before combining them."
+      ],
+      "shortNotes": [
+        "A definite no is still sufficient.",
+        "Avoid unnecessary full calculation."
+      ],
+      "tricks": [
+        "Avoid unnecessary full calculation."
+      ]
+    },
+    {
+      "notes": [
+        "Never carry information from statement 1 into a standalone evaluation of statement 2.",
+        "Sufficiency asks whether a unique answer is possible.",
+        "Evaluate statements independently before combining them."
+      ],
+      "shortNotes": [
+        "Look for two different values satisfying a statement.",
+        "Never import statement 1 facts into statement 2."
+      ],
+      "tricks": [
+        "Never import statement 1 facts into statement 2.",
+        "Avoid unnecessary full calculation."
+      ]
+    },
+    {
+      "notes": [
+        "A definite 'no' is still sufficient information.",
+        "Sufficiency asks whether a unique answer is possible.",
+        "Evaluate statements independently before combining them."
+      ],
+      "shortNotes": [
+        "A definite no is still sufficient.",
+        "Test yes/no cases with counterexamples."
+      ],
+      "tricks": [
+        "Test yes/no cases with counterexamples.",
+        "Avoid unnecessary full calculation."
+      ]
+    },
+    {
+      "notes": [
+        "Look for counterexamples that make a statement insufficient.",
+        "Sufficiency asks whether a unique answer is possible.",
+        "Evaluate statements independently before combining them."
+      ],
+      "shortNotes": [
+        "Look for two different values satisfying a statement.",
+        "Check whether the combined data determines one result."
+      ],
+      "tricks": [
+        "Check whether the combined data determines one result.",
+        "Avoid unnecessary full calculation."
+      ]
+    }
+  ],
+  "classification-odd-one-out-analogies": [
+    {
+      "notes": [
+        "Test parity, primality, squares, cubes and digit sums.",
+        "Three options usually share a rule broken by one.",
+        "Analogies preserve a precise relationship."
+      ],
+      "shortNotes": [
+        "Check primes, squares, parity and digit sums.",
+        "Find the simplest common rule."
+      ],
+      "tricks": [
+        "Find the simplest common rule."
+      ]
+    },
+    {
+      "notes": [
+        "Check vowel position, alphabet gaps and semantic category.",
+        "Three options usually share a rule broken by one.",
+        "Analogies preserve a precise relationship."
+      ],
+      "shortNotes": [
+        "State relationship sentences for analogies.",
+        "Compare both letter gaps in pairs."
+      ],
+      "tricks": [
+        "Compare both letter gaps in pairs.",
+        "Find the simplest common rule."
+      ]
+    },
+    {
+      "notes": [
+        "Express the first pair as a precise relationship sentence.",
+        "Three options usually share a rule broken by one.",
+        "Analogies preserve a precise relationship."
+      ],
+      "shortNotes": [
+        "Check primes, squares, parity and digit sums.",
+        "Match grammatical form in word analogies."
+      ],
+      "tricks": [
+        "Match grammatical form in word analogies.",
+        "Find the simplest common rule."
+      ]
+    },
+    {
+      "notes": [
+        "Find one rule followed by three options rather than four unrelated rules.",
+        "Three options usually share a rule broken by one.",
+        "Analogies preserve a precise relationship."
+      ],
+      "shortNotes": [
+        "State relationship sentences for analogies.",
+        "Test one relationship consistently across options."
+      ],
+      "tricks": [
+        "Test one relationship consistently across options.",
+        "Find the simplest common rule."
+      ]
+    }
+  ],
+  "symbols-notations-operations": [
+    {
+      "notes": [
+        "Rewrite the entire expression with actual operators before calculating.",
+        "Decode custom operators before applying BODMAS.",
+        "Inequalities require compatible signs for a chain."
+      ],
+      "shortNotes": [
+        "Rewrite the entire expression first.",
+        "Do not mix original and coded symbols."
+      ],
+      "tricks": [
+        "Do not mix original and coded symbols."
+      ]
+    },
+    {
+      "notes": [
+        "Apply brackets, orders, division/multiplication and addition/subtraction in order.",
+        "Decode custom operators before applying BODMAS.",
+        "Inequalities require compatible signs for a chain."
+      ],
+      "shortNotes": [
+        "Use the operation definition exactly.",
+        "Apply brackets before powers and division."
+      ],
+      "tricks": [
+        "Apply brackets before powers and division.",
+        "Do not mix original and coded symbols."
+      ]
+    },
+    {
+      "notes": [
+        "Chain only compatible inequality signs; a reverse sign breaks the chain.",
+        "Decode custom operators before applying BODMAS.",
+        "Inequalities require compatible signs for a chain."
+      ],
+      "shortNotes": [
+        "Rewrite the entire expression first.",
+        "Reverse inequality signs for negative multiplication."
+      ],
+      "tricks": [
+        "Reverse inequality signs for negative multiplication.",
+        "Do not mix original and coded symbols."
+      ]
+    },
+    {
+      "notes": [
+        "Infer a hidden rule from at least two worked examples.",
+        "Decode custom operators before applying BODMAS.",
+        "Inequalities require compatible signs for a chain."
+      ],
+      "shortNotes": [
+        "Use the operation definition exactly.",
+        "Test a custom rule on a small example."
+      ],
+      "tricks": [
+        "Test a custom rule on a small example.",
+        "Do not mix original and coded symbols."
+      ]
+    }
+  ],
+  "visual-reasoning-cubes-paper-folding": [
+    {
+      "notes": [
+        "Track rotation, count of elements, shading and position separately.",
+        "Mirror reverses left/right; water image reverses top/bottom.",
+        "Symmetric folds double cut layers when unfolded."
+      ],
+      "shortNotes": [
+        "Track shape, count and rotation separately.",
+        "Count 90° rotation steps."
+      ],
+      "tricks": [
+        "Count 90° rotation steps."
+      ]
+    },
+    {
+      "notes": [
+        "A mirror flips left/right; a water image flips top/bottom.",
+        "Mirror reverses left/right; water image reverses top/bottom.",
+        "Symmetric folds double cut layers when unfolded."
+      ],
+      "shortNotes": [
+        "Use cube nets for opposite faces.",
+        "Each fold doubles cut layers."
+      ],
+      "tricks": [
+        "Each fold doubles cut layers.",
+        "Count 90° rotation steps."
+      ]
+    },
+    {
+      "notes": [
+        "Faces separated by one face in a valid net are often opposite on the cube.",
+        "Mirror reverses left/right; water image reverses top/bottom.",
+        "Symmetric folds double cut layers when unfolded."
+      ],
+      "shortNotes": [
+        "Track shape, count and rotation separately.",
+        "Corner cubes have three painted faces."
+      ],
+      "tricks": [
+        "Corner cubes have three painted faces.",
+        "Count 90° rotation steps."
+      ]
+    },
+    {
+      "notes": [
+        "Each fold doubles the cut pattern when the paper is unfolded.",
+        "Mirror reverses left/right; water image reverses top/bottom.",
+        "Symmetric folds double cut layers when unfolded."
+      ],
+      "shortNotes": [
+        "Use cube nets for opposite faces.",
+        "Non-corner edge cubes have two painted faces."
+      ],
+      "tricks": [
+        "Non-corner edge cubes have two painted faces.",
+        "Count 90° rotation steps."
+      ]
+    }
+  ],
+  "clocks-calendars-ranking-ordering": [
+    {
+      "notes": [
+        "The hour hand moves 0.5° per minute; mirror time is subtracted from 11:60.",
+        "Hour speed = 0.5° per minute; minute speed = 6° per minute.",
+        "Normal years shift weekdays by one; leap years by two."
+      ],
+      "shortNotes": [
+        "Clock angle = absolute hand-angle difference.",
+        "Use 30° per hour mark."
+      ],
+      "tricks": [
+        "Use 30° per hour mark."
+      ]
+    },
+    {
+      "notes": [
+        "A normal year has 1 odd day and a leap year has 2 odd days.",
+        "Hour speed = 0.5° per minute; minute speed = 6° per minute.",
+        "Normal years shift weekdays by one; leap years by two."
+      ],
+      "shortNotes": [
+        "Total = left + right − 1.",
+        "Mirror time = 11:60 − time."
+      ],
+      "tricks": [
+        "Mirror time = 11:60 − time.",
+        "Use 30° per hour mark."
+      ]
+    },
+    {
+      "notes": [
+        "Total = left rank + right rank − 1.",
+        "Hour speed = 0.5° per minute; minute speed = 6° per minute.",
+        "Normal years shift weekdays by one; leap years by two."
+      ],
+      "shortNotes": [
+        "Clock angle = absolute hand-angle difference.",
+        "Divide total days by 7 for weekday shift."
+      ],
+      "tricks": [
+        "Divide total days by 7 for weekday shift.",
+        "Use 30° per hour mark."
+      ]
+    },
+    {
+      "notes": [
+        "Track absolute positions before and after any swap.",
+        "Hour speed = 0.5° per minute; minute speed = 6° per minute.",
+        "Normal years shift weekdays by one; leap years by two."
+      ],
+      "shortNotes": [
+        "Total = left + right − 1.",
+        "Track absolute positions before interchange."
+      ],
+      "tricks": [
+        "Track absolute positions before interchange.",
+        "Use 30° per hour mark."
+      ]
+    }
+  ]
+}
