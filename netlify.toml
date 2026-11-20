@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = ".next"
+  command = "node scripts/capture-build.js"
+  publish = "out"
 
 [build.environment]
   NODE_VERSION = "22"
