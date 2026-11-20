@@ -3,13 +3,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/build-netlify.js",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@electric-sql/pglite": "^0.5.17",
     "@netlify/database": "^2.0.3",
     "dotenv": "17.3.1",
     "drizzle-orm": "0.45.2",
@@ -20,6 +19,7 @@
     "react-dom": "19.2.6"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.17",
     "@tailwindcss/postcss": "4.1.17",
     "@types/node": "22.19.15",
     "@types/pg": "8.18.0",

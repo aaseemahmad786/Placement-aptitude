@@ -1,7 +1,5 @@
 import { drizzle as drizzlePg } from "drizzle-orm/node-postgres";
-import { drizzle as drizzlePglite } from "drizzle-orm/pglite";
 import { Pool } from "pg";
-import { PGlite } from "@electric-sql/pglite";
 import path from "node:path";
 
 let netlifyDbUrl: string | undefined;
@@ -22,7 +20,6 @@ type DbType = ReturnType<typeof drizzlePg>;
 
 const globalForDb = globalThis as typeof globalThis & {
   __arenaNextJsPostgresqlPool?: Pool;
-  __arenaPglite?: PGlite;
   __arenaDb?: DbType;
 };
 
@@ -45,20 +42,29 @@ function getDatabase(): DbType {
   let instance: DbType;
   if (databaseUrl && pool) {
     instance = drizzlePg(pool);
+  } else if (process.env.NODE_ENV !== "production") {
+    try {
+      const { PGlite } = require("@electric-sql/pglite");
+      const { drizzle: drizzlePglite } = require("drizzle-orm/pglite");
+      const dataDir = path.join(process.cwd(), ".pgdata");
+      const pglite = new PGlite(dataDir);
+      instance = drizzlePglite(pglite) as unknown as DbType;
+    } catch {
+      instance = drizzlePg(new Pool());
+    }
   } else {
-    const isProduction = process.env.NODE_ENV === "production";
-    const pglite =
-      globalForDb.__arenaPglite ??
-      (isProduction || isBuildPhase
-        ? new PGlite()
-        : new PGlite(path.join(process.cwd(), ".pgdata")));
-    globalForDb.__arenaPglite = pglite;
-    // drizzle-orm/pglite and drizzle-orm/node-postgres share the same PgDatabase interface
-    instance = drizzlePglite(pglite) as unknown as DbType;
+    // In production without DATABASE_URL, create dummy instance.
+    // getAppData() falls back to static data so queries are not made.
+    instance = drizzlePg(new Pool());
   }
 
   globalForDb.__arenaDb = instance;
   return instance;
 }
 
-export const db: DbType = getDatabase();
+export const db: DbType = new Proxy({} as DbType, {
+  get(_target, prop) {
+    const database = getDatabase();
+    return database[prop as keyof DbType];
+  },
+});
