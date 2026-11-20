@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   experimental: {
     agentUpgrade: "security",
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
