@@ -2,15 +2,7 @@ import { drizzle as drizzlePg } from "drizzle-orm/node-postgres";
 import { Pool } from "pg";
 import path from "node:path";
 
-let netlifyDbUrl: string | undefined;
-try {
-  const { getConnectionString } = require("@netlify/database");
-  netlifyDbUrl = typeof getConnectionString === "function" ? getConnectionString() : undefined;
-} catch {
-  // Ignored if not running in Netlify environment
-}
-
-export const databaseUrl = process.env.DATABASE_URL || process.env.NETLIFY_DB_URL || netlifyDbUrl;
+export const databaseUrl = process.env.DATABASE_URL || process.env.NETLIFY_DB_URL;
 
 export const isBuildPhase =
   process.env.NEXT_PHASE === "phase-production-build" ||
