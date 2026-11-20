@@ -13,7 +13,11 @@ try {
   // Ignored if not running in Netlify environment
 }
 
-const databaseUrl = process.env.DATABASE_URL || process.env.NETLIFY_DB_URL || netlifyDbUrl;
+export const databaseUrl = process.env.DATABASE_URL || process.env.NETLIFY_DB_URL || netlifyDbUrl;
+
+export const isBuildPhase =
+  process.env.NEXT_PHASE === "phase-production-build" ||
+  process.env.npm_lifecycle_event === "build";
 
 type DbType = ReturnType<typeof drizzlePg>;
 
@@ -30,7 +34,7 @@ export const pool = databaseUrl
       }))
   : undefined;
 
-if (pool && process.env.NODE_ENV !== "production") {
+if (pool) {
   globalForDb.__arenaNextJsPostgresqlPool = pool;
 }
 
@@ -43,18 +47,18 @@ function getDatabase(): DbType {
   if (databaseUrl && pool) {
     instance = drizzlePg(pool);
   } else {
-    const dataDir = path.join(process.cwd(), ".pgdata");
-    const pglite = globalForDb.__arenaPglite ?? new PGlite(dataDir);
-    if (process.env.NODE_ENV !== "production") {
-      globalForDb.__arenaPglite = pglite;
-    }
+    const isProduction = process.env.NODE_ENV === "production";
+    const pglite =
+      globalForDb.__arenaPglite ??
+      (isProduction || isBuildPhase
+        ? new PGlite()
+        : new PGlite(path.join(process.cwd(), ".pgdata")));
+    globalForDb.__arenaPglite = pglite;
     // drizzle-orm/pglite and drizzle-orm/node-postgres share the same PgDatabase interface
     instance = drizzlePglite(pglite) as unknown as DbType;
   }
 
-  if (process.env.NODE_ENV !== "production") {
-    globalForDb.__arenaDb = instance;
-  }
+  globalForDb.__arenaDb = instance;
   return instance;
 }
 

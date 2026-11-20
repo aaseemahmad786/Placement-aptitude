@@ -128,6 +128,13 @@ export function getStaticAppData(): AppData {
 }
 
 export async function getAppData(): Promise<AppData> {
+  if (
+    process.env.NEXT_PHASE === "phase-production-build" ||
+    process.env.npm_lifecycle_event === "build"
+  ) {
+    return getStaticAppData();
+  }
+
   try {
     await ensureSeeded();
 

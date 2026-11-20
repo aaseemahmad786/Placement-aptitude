@@ -218,6 +218,12 @@ async function runSeed() {
 }
 
 export async function ensureSeeded() {
+  if (
+    process.env.NEXT_PHASE === "phase-production-build" ||
+    process.env.npm_lifecycle_event === "build"
+  ) {
+    return;
+  }
   if (!seedPromise) seedPromise = runSeed().catch(error => { seedPromise = null; throw error; });
   await seedPromise;
 }
