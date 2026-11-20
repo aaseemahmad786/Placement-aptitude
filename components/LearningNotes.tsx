@@ -7,8 +7,12 @@ import type { ChapterDTO, TopicDTO } from "@/lib/types";
 import { type DashboardActions } from "@/components/shared";
 
 export default function LearningNotes({ topic, chapter, actions, onClose }: { topic: TopicDTO; chapter: ChapterDTO; actions: DashboardActions; onClose: () => void }) {
+  const [prevTopicId, setPrevTopicId] = useState(topic.id);
   const [tab, setTab] = useState<"notes" | "short" | "tricks" | "routine">("notes");
-  useEffect(() => { setTab("notes"); }, [topic.id]);
+  if (topic.id !== prevTopicId) {
+    setPrevTopicId(topic.id);
+    setTab("notes");
+  }
   const meta = SECTION_META[chapter.section];
   const tabs = [
     { key: "notes" as const, label: "Detailed notes", icon: FileText },

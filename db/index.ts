@@ -6,7 +6,6 @@ import path from "node:path";
 
 let netlifyDbUrl: string | undefined;
 try {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const { getConnectionString } = require("@netlify/database");
   netlifyDbUrl = typeof getConnectionString === "function" ? getConnectionString() : undefined;
 } catch {

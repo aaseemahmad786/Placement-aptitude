@@ -18,15 +18,23 @@ export default function QuestionBank({ data, actions, initialChapter = "all" }: 
   const [revealed, setRevealed] = useState<number[]>([]);
   const [message, setMessage] = useState("");
   const years = [...new Set(data.bankQuestions.map(question => question.year))].sort();
-  const saved = new Set(data.bookmarkedQuestionIds);
-  const filtered = useMemo(() => data.bankQuestions.filter(question => {
-    if (year !== "all" && question.year !== year) return false;
-    if (section !== "all" && question.section !== section) return false;
-    if (chapter !== "all" && question.chapterSlug !== chapter) return false;
-    if (savedOnly && !saved.has(question.id)) return false;
-    return `${question.prompt} ${question.chapterTitle} ${question.topicTitle}`.toLowerCase().includes(query.toLowerCase().trim());
-  }), [data.bankQuestions, year, section, chapter, query, savedOnly, data.bookmarkedQuestionIds]);
-  useEffect(() => { setPage(1); }, [year, section, chapter, query, savedOnly]);
+  const saved = useMemo(() => new Set(data.bookmarkedQuestionIds), [data.bookmarkedQuestionIds]);
+  const filterKey = `${year}-${section}-${chapter}-${query}-${savedOnly}`;
+  const [prevFilterKey, setPrevFilterKey] = useState(filterKey);
+  if (filterKey !== prevFilterKey) {
+    setPrevFilterKey(filterKey);
+    setPage(1);
+  }
+
+  const filtered = useMemo(() => {
+    return data.bankQuestions.filter(question => {
+      if (year !== "all" && question.year !== year) return false;
+      if (section !== "all" && question.section !== section) return false;
+      if (chapter !== "all" && question.chapterSlug !== chapter) return false;
+      if (savedOnly && !saved.has(question.id)) return false;
+      return `${question.prompt} ${question.chapterTitle} ${question.topicTitle}`.toLowerCase().includes(query.toLowerCase().trim());
+    });
+  }, [data.bankQuestions, year, section, chapter, query, savedOnly, saved]);
   useEffect(() => { if (!message) return; const timer = window.setTimeout(() => setMessage(""), 3000); return () => window.clearTimeout(timer); }, [message]);
   const pageCount = Math.max(1, Math.ceil(filtered.length / 8));
   const visible = filtered.slice((page - 1) * 8, page * 8);

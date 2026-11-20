@@ -53,15 +53,21 @@ function DayCard({
 }) {
   const progress = data.dailyProgress.find((entry) => entry.dayNumber === plan.dayNumber);
   const completed = Boolean(progress?.completed);
-  const [minutes, setMinutes] = useState(String(progress?.minutes || plan.targetMinutes));
-  const [note, setNote] = useState(progress?.note ?? "");
+  const targetMinutes = progress?.minutes || plan.targetMinutes;
+  const targetNote = progress?.note ?? "";
+  const [prevSyncKey, setPrevSyncKey] = useState(`${plan.dayNumber}-${targetMinutes}-${targetNote}`);
+  const [minutes, setMinutes] = useState(String(targetMinutes));
+  const [note, setNote] = useState(targetNote);
+
+  const currentSyncKey = `${plan.dayNumber}-${targetMinutes}-${targetNote}`;
+  if (currentSyncKey !== prevSyncKey) {
+    setPrevSyncKey(currentSyncKey);
+    setMinutes(String(targetMinutes));
+    setNote(targetNote);
+  }
+
   const date = planDate(data.profile.startDate, plan.dayNumber);
   const chapterBySlug = new Map(data.chapters.map((chapter) => [chapter.slug, chapter]));
-
-  useEffect(() => {
-    setMinutes(String(progress?.minutes || plan.targetMinutes));
-    setNote(progress?.note ?? "");
-  }, [progress?.minutes, progress?.note, plan.targetMinutes]);
 
   const saveNote = () => actions.saveDay(plan.dayNumber, completed, Number(minutes) || 0, note);
 
@@ -155,20 +161,23 @@ export default function Routine({ data, actions }: ViewProps) {
   const currentWeek = Math.ceil(data.metrics.currentDay / 7);
   const [weekFilter, setWeekFilter] = useState<number | "all">(currentWeek);
   const [statusFilter, setStatusFilter] = useState<"all" | "pending" | "done" | "milestone">("all");
+  const profileKey = `${data.profile.startDate}-${data.profile.examDate ?? ""}-${data.profile.dailyGoalMinutes}`;
+  const [prevProfileKey, setPrevProfileKey] = useState(profileKey);
   const [settings, setSettings] = useState({
     startDate: data.profile.startDate,
     examDate: data.profile.examDate ?? "",
     dailyGoalMinutes: data.profile.dailyGoalMinutes,
   });
-  const [saved, setSaved] = useState(false);
 
-  useEffect(() => {
+  if (profileKey !== prevProfileKey) {
+    setPrevProfileKey(profileKey);
     setSettings({
       startDate: data.profile.startDate,
       examDate: data.profile.examDate ?? "",
       dailyGoalMinutes: data.profile.dailyGoalMinutes,
     });
-  }, [data.profile.startDate, data.profile.examDate, data.profile.dailyGoalMinutes]);
+  }
+  const [saved, setSaved] = useState(false);
 
   const completedSet = useMemo(
     () => new Set(data.dailyProgress.filter((entry) => entry.completed).map((entry) => entry.dayNumber)),
